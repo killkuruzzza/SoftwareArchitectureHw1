@@ -24,8 +24,8 @@ public class ModelStore implements IModelChanger {
     }
 
     // TODO: реализовать метод scene
-    public Scene getScene(int number) {
-        return new Scene(number, models, flashes);
+    public Scene getScene(int id) {
+        return new Scene(id, models, flashes);
     }
 
     // TODO: реализовать метод notifyChange
