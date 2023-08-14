@@ -21,6 +21,7 @@ public class ModelStore implements IModelChanger {
         scenes = new ArrayList<>();
         flashes = new ArrayList<>();
         cameras = new ArrayList<>();
+        //и в каждый список нужно добавить по элементу, об этом на говорит связь между объектами
     }
 
     // TODO: реализовать метод scene
